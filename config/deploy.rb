@@ -3,7 +3,7 @@ server '162.243.207.6' , roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'https://github.com/fypyuhu/blog.git'
 set :application,     'blog'
-set :user,            'deployer'
+set :user,            'deploy'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
 
